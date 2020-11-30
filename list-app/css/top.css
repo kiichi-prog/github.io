@@ -1,0 +1,22 @@
+body {
+  font-family: "Avenir Next";
+  height:auto;
+}
+.header{
+  background-color: black;
+  height:30px;
+}
+.header-logo{
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.main{
+  background-color: white;
+  height: 100px;
+  text-align: center;
+}
+.main a{
+  font-size: 50px
+}
