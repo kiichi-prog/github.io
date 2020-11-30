@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+  　<title>trush talks</title>
+　  <link type="text/css" rel="stylesheet" href="/index.css"></link>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">
+        trush talks
+      </div>
+    </div>
+    <div class="main">
+      <div class="new">
+        <a href="/main">発言</a>
+      </div>
+    </div>
+      <div class="index-table-wrapper">
+  <div class="table-head">
+    <span class="id-column">ID</span>
+    <span>talk</span>
+  </div>
+  <ul class="table-body">
+    <% talks.forEach((talk) => { %>
+      <li>
+        <div class="item-data">
+          <span class="id-column"><%= talk.id %></span>
+          <span class="talk-column"><%= talk.talk %></span>
+        </div>
+      </li>
+    <% }) %>
+  </ul>
+</div>
+      <div class="back">
+        <a href="/">帰る</a>
+    </div>
+    <div class="footer">
+
+    </div>
+  </body>
+</html>
