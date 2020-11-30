@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: 'Hiragino Sans', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 1px;
+}
+body {
+  font-family: "Avenir Next";
+  height:auto;
+}
+.header{
+  background-color: black;
+  height:30px;
+}
+.header-logo{
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.table-head {
+  display: flex;
+  background-color: #b7cadc;
+  border-radius: 2px 2px 0 0;
+  height: 44px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.id-column {
+  width: 72px;
+  text-align: center;
+}
+.table-body {
+  background-color: #ffffff;
+}
+
+.table-body li {
+  height: 72px;
+  border: 1px solid #f0f4f9;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-body .id-column {
+  font-size: 16px;
+  color: #bac6d3;
+}
+
+.table-body .name-column {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8491a5;
+}
+
+.item-data {
+  display: flex;
+}
+
+.item-menu {
+  display: flex;
+}
+
+.item-menu form {
+  width: 60px;
+  text-align: center;
+}
